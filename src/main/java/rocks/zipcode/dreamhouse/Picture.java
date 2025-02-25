@@ -36,24 +36,78 @@ public class Picture
         wall.changeSize(100);
         wall.makeVisible();
 
+        wall = new Square();
+        wall.changeColor("grey");
+        wall.moveVertical(200);
+        wall.changeSize(100);
+        wall.makeVisible();
+        wall.moveHorizontal(160);
+
+        wall = new Square();
+        wall.changeColor("grey");
+        wall.moveVertical(200);
+        wall.changeSize(100);
+        wall.makeVisible();
+        wall.moveHorizontal(-120);
+
+
         window = new Square();
         window.changeColor("black");
         window.moveHorizontal(20);
         window.moveVertical(100);
         window.makeVisible();
 
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(55);
+        window.moveVertical(100);
+        window.makeVisible();
+
         roof = new Triangle();
+        roof.changeColor("orange");
         roof.changeSize(50, 140);
         roof.moveHorizontal(60);
         roof.moveVertical(70);
         roof.makeVisible();
 
         sun = new Circle();
-        sun.changeColor("yellow");
-        sun.moveHorizontal(180);
-        sun.moveVertical(-10);
+        sun.changeColor("white");
+        sun.moveHorizontal(45);
+        sun.moveVertical(-60);
         sun.changeSize(60);
         sun.makeVisible();
+
+        sun = new Circle();
+        sun.changeColor("grey");
+        sun.moveHorizontal(45);
+        sun.moveVertical(-60);
+        sun.changeSize(50);
+        sun.makeVisible();
+
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(55);
+        window.moveVertical(200);
+        window.makeVisible();
+
+        window = new Square();
+        window.changeColor("grey");
+        window.moveHorizontal(55);
+        window.moveVertical(190);
+        window.makeVisible();
+
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(40);
+        window.moveVertical(180);
+        window.makeVisible();
+
+        window = new Square();
+        window.changeColor("grey");
+        window.moveHorizontal(40);
+        window.moveVertical(170);
+        window.makeVisible();
+
     }
 
     /**
@@ -79,7 +133,7 @@ public class Picture
         {
             wall.changeColor("red");
             window.changeColor("black");
-            roof.changeColor("green");
+            roof.changeColor("grey");
             sun.changeColor("yellow");
         }
     }
