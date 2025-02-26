@@ -110,53 +110,28 @@ public class Picture
         sun.makeVisible();
 
 
-        roof = new Triangle();
-        roof.changeColor("black");
-        roof.changeSize(40, 160);
-        roof.moveHorizontal(60);
-        roof.moveVertical(125);
-        roof.makeVisible();
-
-        roof = new Triangle();
-        roof.changeColor("black");
-        roof.changeSize(40, 160);
-        roof.moveHorizontal(20);
-        roof.moveVertical(125);
-        roof.makeVisible();
-
-        roof = new Triangle();
-        roof.changeColor("white");
-        roof.changeSize(20, 80);
-        roof.moveHorizontal(20);
-        roof.moveVertical(125);
-        roof.makeVisible();
-
-        roof = new Triangle();
-        roof.changeColor("black");
-        roof.changeSize(40, 160);
-        roof.moveHorizontal(40);
-        roof.moveVertical(125);
-        roof.makeVisible();
-
-        roof = new Triangle();
-        roof.changeColor("black");
-        roof.changeSize(40, 160);
-        roof.moveHorizontal(60);
-        roof.moveVertical(125);
-        roof.makeVisible();
-
-        roof = new Triangle();
-        roof.changeColor("white");
-        roof.changeSize(20, 80);
-        roof.moveHorizontal(60);
-        roof.moveVertical(125);
-        roof.makeVisible();
 
         sun = new Circle();
         sun.changeColor("yellow");
         sun.moveHorizontal(215);
         sun.moveVertical(-55);
         sun.changeSize(60);
+        sun.makeVisible();
+
+        sun = new Circle();
+        sun.changeColor("white");
+        sun.moveHorizontal(100);
+        sun.moveVertical(-55);
+        sun.changeSize(10);
+        sun.makeVisible();
+
+
+
+        sun = new Circle();
+        sun.changeColor("blue");
+        sun.moveHorizontal(112);
+        sun.moveVertical(-25);
+        sun.changeSize(10);
         sun.makeVisible();
 
 
