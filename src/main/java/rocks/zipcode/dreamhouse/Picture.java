@@ -31,82 +31,332 @@ public class Picture
      */
     public void draw()
     {
-        wall = new Square();
-        wall.moveVertical(80);
-        wall.changeSize(100);
-        wall.makeVisible();
 
-        wall = new Square();
-        wall.changeColor("grey");
-        wall.moveVertical(200);
-        wall.changeSize(100);
-        wall.makeVisible();
-        wall.moveHorizontal(160);
-
-        wall = new Square();
-        wall.changeColor("grey");
-        wall.moveVertical(200);
-        wall.changeSize(100);
-        wall.makeVisible();
-        wall.moveHorizontal(-120);
-
-
-        window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(20);
-        window.moveVertical(100);
-        window.makeVisible();
-
-        window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(55);
-        window.moveVertical(100);
-        window.makeVisible();
-
-        roof = new Triangle();
-        roof.changeColor("orange");
-        roof.changeSize(50, 140);
-        roof.moveHorizontal(60);
-        roof.moveVertical(70);
-        roof.makeVisible();
 
         sun = new Circle();
         sun.changeColor("white");
-        sun.moveHorizontal(45);
-        sun.moveVertical(-60);
+        sun.moveHorizontal(125);
+        sun.moveVertical(145);
+        sun.changeSize(45);
+        sun.makeVisible();
+
+
+
+        wall = new Square();
+        wall.changeColor("white");
+        wall.moveVertical(170);
+        wall.moveHorizontal(100);
+        wall.changeSize(70);
+        wall.makeVisible();
+
+
+
+        roof = new Triangle();
+        roof.changeColor("black");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(190);
+        roof.moveVertical(135);
+        roof.makeVisible();
+
+        wall = new Square();
+        wall.changeColor("white");
+        wall.moveVertical(170);
+        wall.moveHorizontal(150);
+        wall.changeSize(70);
+        wall.makeVisible();
+
+        wall = new Square();
+        wall.changeColor("white");
+        wall.moveVertical(140);
+        wall.moveHorizontal(150);
+        wall.changeSize(70);
+        wall.makeVisible();
+
+
+        wall = new Square();
+        wall.changeColor("white");
+        wall.moveVertical(170);
+        wall.moveHorizontal(60);
+        wall.changeSize(70);
+        wall.makeVisible();
+
+
+        sun = new Circle();
+        sun.changeColor("white");
+        sun.moveHorizontal(20);
+        sun.moveVertical(-97);
         sun.changeSize(60);
         sun.makeVisible();
 
         sun = new Circle();
+        sun.changeColor("white");
+        sun.moveHorizontal(0);
+        sun.moveVertical(-95);
+        sun.changeSize(60);
+        sun.makeVisible();
+
+        sun = new Circle();
+        sun.changeColor("white");
+        sun.moveHorizontal(-10);
+        sun.moveVertical(-90);
+        sun.changeSize(60);
+        sun.makeVisible();
+
+        sun = new Circle();
+        sun.changeColor("white");
+        sun.moveHorizontal(-25);
+        sun.moveVertical(-90);
+        sun.changeSize(60);
+        sun.makeVisible();
+
+
+        roof = new Triangle();
+        roof.changeColor("black");
+        roof.changeSize(40, 160);
+        roof.moveHorizontal(60);
+        roof.moveVertical(125);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("black");
+        roof.changeSize(40, 160);
+        roof.moveHorizontal(20);
+        roof.moveVertical(125);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("white");
+        roof.changeSize(20, 80);
+        roof.moveHorizontal(20);
+        roof.moveVertical(125);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("black");
+        roof.changeSize(40, 160);
+        roof.moveHorizontal(40);
+        roof.moveVertical(125);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("black");
+        roof.changeSize(40, 160);
+        roof.moveHorizontal(60);
+        roof.moveVertical(125);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("white");
+        roof.changeSize(20, 80);
+        roof.moveHorizontal(60);
+        roof.moveVertical(125);
+        roof.makeVisible();
+
+        sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(215);
+        sun.moveVertical(-55);
+        sun.changeSize(60);
+        sun.makeVisible();
+
+
+        sun = new Circle();
         sun.changeColor("grey");
-        sun.moveHorizontal(45);
-        sun.moveVertical(-60);
+        sun.moveHorizontal(215);
+        sun.moveVertical(-55);
         sun.changeSize(50);
         sun.makeVisible();
 
         window = new Square();
         window.changeColor("yellow");
-        window.moveHorizontal(55);
-        window.moveVertical(200);
+        window.moveHorizontal(155);
+        window.moveVertical(145);
         window.makeVisible();
+
 
         window = new Square();
         window.changeColor("grey");
-        window.moveHorizontal(55);
+        window.moveHorizontal(155);
         window.moveVertical(190);
         window.makeVisible();
 
         window = new Square();
-        window.changeColor("yellow");
-        window.moveHorizontal(40);
-        window.moveVertical(180);
+        window.changeColor("grey");
+        window.moveHorizontal(70);
+        window.moveVertical(190);
         window.makeVisible();
 
-        window = new Square();
-        window.changeColor("grey");
-        window.moveHorizontal(40);
-        window.moveVertical(170);
-        window.makeVisible();
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(-60);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(-40);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(-25);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(-10);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(5);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(15);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(25);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(35);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(45);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(60);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(75);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(90);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(110);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(120);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(135);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(155);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(165);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(175);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(190);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(210);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(225);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(245);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(260);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+        roof = new Triangle();
+        roof.changeColor("green");
+        roof.changeSize(40, 120);
+        roof.moveHorizontal(275);
+        roof.moveVertical(270);
+        roof.makeVisible();
+
+
+
+
 
     }
 
